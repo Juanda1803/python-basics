@@ -31,8 +31,13 @@ suma(4,7)
 suma(9,1)
 print(suma(2,3))
 
+add = lambda numberOne, numberTwo: numberOne + numberTwo
+
+print(add(1,2))
+
 
 # Listas (Arreglos)-----------
+myList = ['Juan', 'Valentina']
 myList = ['Juan', 'Valentina'] * 3
 myList2 = ['Juan', 3, True, 57.79, 'Valentina']
 
@@ -58,6 +63,19 @@ print(myList[:])
 print(myList2[:])
 print(myList3[:])
 print(myList2[0])
+
+
+# Tuplas------------------
+myTupla = ("Juan", 18, 1, 2003)
+
+# Comvertir una tupla a una lista
+myListToTupla = list(myTupla)
+# Comvertir una lista a una tupla
+myTuplaToList = tuple(myList)
+
+print(myTupla[2])
+print(myListToTupla[:])
+print(myTuplaToList[:])
 
 
 
